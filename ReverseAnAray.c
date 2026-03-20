@@ -3,11 +3,11 @@ int main(){
     int arr[5] = {1,2,3,4,5};
     int revarr[5];
 
-    for(int i = 5;i>0;i--){
-     revarr[5-i] = arr[i];
+    for(int i = 4;i>=0;i--){
+     revarr[4-i] = arr[i];
 
     }
-    for(int i = 0; i<5;i++){
+    for(int i = 0; i<=4;i++){
         printf("%d",revarr[i]);
     }
     return 0;
